@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    [SerializeField]
+    string teleportLocation = "SampleScene";
     // Start is called before the first frame update
     void Start()
     {
@@ -45,5 +47,9 @@ public class PauseMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    
+    public void Beginning()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(teleportLocation);
+    }
 }

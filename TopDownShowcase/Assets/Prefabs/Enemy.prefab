@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 1805039645, guid: 4edd80d1d34058146ae6e83b0a49b756, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bfc3b427f003ef468dda90b56eac37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseSpeed: 3
-  chaseTriggerDistance: 5
+  chaseSpeed: 2
+  chaseTriggerDistance: 20
   returnHome: 1
 --- !u!50 &7364022799422218886
 Rigidbody2D:
@@ -191,8 +191,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3928737697537785327, guid: 21309b4807058ed46ba83f8e25715b5e, type: 3}
   bulletSpeed: 10
-  bulletLifetime: 2
-  shootDelay: 0.5
+  bulletLifetime: 4
+  shootDelay: 0.3
   shootRange: 5
 --- !u!95 &3504495826099255757
 Animator:
