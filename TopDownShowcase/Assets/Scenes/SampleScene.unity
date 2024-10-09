@@ -51199,7 +51199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2539052030401970612, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
       propertyPath: gameLength
-      value: 12
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2539052030401970612, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
       propertyPath: levelToLoad
@@ -51312,6 +51312,30 @@ PrefabInstance:
     - target: {fileID: 7230043361825415651, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
       propertyPath: m_Color.r
       value: 0.6415094
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668930670153801335, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668930670153801335, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668930670153801335, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668930670153801335, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668930670153801335, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 91
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668930670153801335, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 41.299988
       objectReference: {fileID: 0}
     - target: {fileID: 8221444059033077893, guid: 8cb647f7e6d96a343981730d20875850, type: 3}
       propertyPath: m_Name
